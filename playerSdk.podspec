@@ -8,7 +8,7 @@ s.summary = "playerSdk lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.0.2"
+s.version = "0.0.4"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

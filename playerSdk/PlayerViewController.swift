@@ -8,10 +8,10 @@
 
 import UIKit
 
-class PlayerViewController: UIViewController {
+public class PlayerViewController: UIViewController {
 
     @IBOutlet weak var playButton: UIButton!
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }

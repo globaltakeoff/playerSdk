@@ -10,7 +10,6 @@
 		4A3F997E2476B731004300CB /* playerSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3F997C2476B731004300CB /* playerSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A3F99872476B917004300CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F99842476B917004300CB /* Main.storyboard */; };
 		4A3F99882476B917004300CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F99852476B917004300CB /* ViewController.swift */; };
-		4A3F99892476B917004300CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F99862476B917004300CB /* Assets.xcassets */; };
 		F305D90841826968DA6E8643 /* Pods_playerSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ADF53FE8A46F8B3F16305F /* Pods_playerSdk.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +19,6 @@
 		4A3F997D2476B731004300CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3F99842476B917004300CB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4A3F99852476B917004300CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A3F99862476B917004300CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51B9EDF2B12557C54B04B111 /* Pods-playerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playerSdk.debug.xcconfig"; path = "Target Support Files/Pods-playerSdk/Pods-playerSdk.debug.xcconfig"; sourceTree = "<group>"; };
 		61ADF53FE8A46F8B3F16305F /* Pods_playerSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		763C9A56ADA99D1A56228696 /* Pods-playerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playerSdk.release.xcconfig"; path = "Target Support Files/Pods-playerSdk/Pods-playerSdk.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 		4A3F997B2476B731004300CB /* playerSdk */ = {
 			isa = PBXGroup;
 			children = (
-				4A3F99862476B917004300CB /* Assets.xcassets */,
 				4A3F99842476B917004300CB /* Main.storyboard */,
 				4A3F99852476B917004300CB /* ViewController.swift */,
 				4A3F997C2476B731004300CB /* playerSdk.h */,
@@ -156,7 +153,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3F99892476B917004300CB /* Assets.xcassets in Resources */,
 				4A3F99872476B917004300CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

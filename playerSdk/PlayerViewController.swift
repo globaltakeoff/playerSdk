@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PlayerViewController.swift
 //  player
 //
 //  Created by Mohan Agadkar on 21/05/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PlayerViewController: UIViewController {
 
     @IBOutlet weak var playButton: UIButton!
     override func viewDidLoad() {
@@ -17,9 +17,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playButtonTapped(_ sender: UIButton) {
-        let alert = UIAlertController(title: "Player", message: "Sample Message",         preferredStyle: .alert)
+        let alert = UIAlertController(title: "Player", message: "Hi Sample Message",         preferredStyle: .alert)
         
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+        alert.addAction(UIAlertAction(title: "OK...", style: .default, handler: { _ in
             //Cancel Action
         }))
         self.present(alert, animated: true, completion: nil)
